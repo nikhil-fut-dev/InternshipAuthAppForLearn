@@ -5,7 +5,6 @@ import {
   loginUser,
   getMe,
   logoutUser,
-  verifyEmail,
 } from "../controllers/authController.js";
 
 import { protect } from "../middleware/authMiddleware.js";
@@ -40,8 +39,6 @@ router.post(
   validate(loginSchema),
   loginUser,
 );
-
-router.get("/verify-email/:token", verifyEmail);
 
 // Current user
 router.get("/me", protect, getMe);
