@@ -253,7 +253,6 @@ internship-auth-app/
 │   │   └── authValidation.js
 │   │
 │   ├── utils/
-│   │   └── emailService.js
 │   │
 │   ├── .env
 │   ├── .env.example
