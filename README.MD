@@ -379,8 +379,8 @@ Success Response
 
 ```json
 {
-  "fullName": "John Doe",
-  "email": "john@example.com",
+  "fullName": "Nikhil",
+  "email": "nikhil@example.com",
   "password": "Strong@123"
 }
 ```
